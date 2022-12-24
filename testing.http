@@ -1,0 +1,16 @@
+GET http://localhost:3004/api/v1/longest-duration-movies/
+
+###
+POST http://localhost:3004/api/v1/new-movie
+Content-Type: application/json
+
+{
+    "tconst":"tt0000025",
+    "titleType":"movie",
+    "primaryTitle":"Baahubali",
+    "runtimeMinutes":25,
+    "genres":"Action"}
+
+###
+
+GET http://localhost:3004/api/v1/top-rated-movies
